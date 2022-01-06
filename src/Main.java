@@ -1,6 +1,8 @@
+import java.sql.SQLOutput;
+
 public class Main {
-    public static int id = 182033;
-    public static String name = "Soyab Ahmed";
+    public  int id ;
+    public  String name ;
 
     public Main(int id, String name){
         this.id = id;
@@ -8,7 +10,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Id of x is " + id );
-        System.out.println("My name is " + name);
+        Main x = new Main(182033,"Soyab Ahmed");
+        System.out.println("Id of x is " + x.id );
+        System.out.println("My name is " + x.name);
+        System.out.println("For 6 january commit.");
     }
 }
