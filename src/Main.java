@@ -24,4 +24,8 @@ public class Main {
     public void setId(int id) {
         this.id = id;
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
